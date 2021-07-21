@@ -9,7 +9,7 @@ async function getData(id) {
 				hostname: 'discord.com',
 				port: 443,
 				path: '/api/v8/users/' + id,
-				headers: {'Authorization': 'Bot ODYyMzEyODE5NTQ2NjUyNzQy.YOWhZQ.VLklG8D8AU7-PhJCgv49hB7yKIQ'},
+				headers: {'Authorization': 'Bot INSERT_TOKEN_HERE'},
 				method: 'GET'
 			}
 
