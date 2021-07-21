@@ -42,7 +42,6 @@ async function getData(id) {
 const Snowflake = require("./discord/Snowflake")
 
 async function main() {
-	//console.log(creation
 	var creation = new Date(Snowflake.deconstruct(id).timestamp)
 	var data = await getData(id)
 	var userdata = "ID: "+ data.id + "\nUsername: " + data.username + "\nAvatar: " + data.avatar + "\nDiscriminator: " + data.discriminator + "\nPublic Flags: " + data.public_flags + "\nDate of Creation: " + creation
